@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stop Watch</title>
+    <link type="text/css" rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="timer-group">
+        <div class="timer hour">
+            <div class="hand"><span></span></div>
+            <div class="hand"><span></span></div>
+        </div>
+        <div class="timer minute">
+            <div class="hand"><span></span></div>
+            <div class="hand"><span></span></div>
+        </div>
+        <div class="timer second">
+            <div class="hand"><span></span></div>
+            <div class="hand"><span></span></div>
+        </div>
+        <div class="face">
+            <h2>COUNTDOWN BIRTHDAY</h2>
+            <p><span id="hours">5</span>:<span id="minutes">5</span>:<span id="seconds">5</span>:<span id="miliseconds">100</span></p>
+            <button class="btn" id="start" onclick="startTime()">Start</button>
+            <button class="btn" id="stop" onclick="stopTime()">Stop</button>
+            <button class="btn" id="reset" onclick="resetTime()">Reset</button>
+        </div>
+    </div>
+
+</body>
+
+<script src="app.js"></script>
+
+</html>
